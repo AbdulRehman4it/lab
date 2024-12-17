@@ -24,3 +24,11 @@ font-family: bookfont !important;
 body{
     font-family: 'Poppins', sans-serif;
 }
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Moves left by half the total width */
+  }
+  .marquee {
+    display: flex;
+    animation: marquee 20s linear infinite;
+  }
