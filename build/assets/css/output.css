@@ -778,6 +778,7 @@ video {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .w-6{
   width: 1.5rem;
 }
@@ -790,14 +791,36 @@ video {
   width: 2rem;
 }
 
+=======
+>>>>>>> labcode
 .w-\[\]{
   width: ;
 }
 
+<<<<<<< HEAD
+=======
+.w-\[24\]{
+  width: 24;
+}
+
+.w-\[24\%\]{
+  width: 24%;
+}
+
+.w-\[50\]{
+  width: 50;
+}
+
+.w-\[50\%\]{
+  width: 50%;
+}
+
+>>>>>>> labcode
 .w-\[80\%\]{
   width: 80%;
 }
 
+<<<<<<< HEAD
 .w-1\/2{
   width: 50%;
 }
@@ -828,6 +851,38 @@ video {
 
 .resize{
   resize: both;
+=======
+.w-\[70\%\]{
+  width: 70%;
+}
+
+.w-\[60\]{
+  width: 60;
+}
+
+.w-\[60\%\]{
+  width: 60%;
+}
+
+.w-\[90\%\]{
+  width: 90%;
+}
+
+.w-\[0\%\]{
+  width: 0%;
+}
+
+.w-\[30\%\]{
+  width: 30%;
+}
+
+.w-\[40\%\]{
+  width: 40%;
+}
+
+.max-w-4xl{
+  max-width: 56rem;
+>>>>>>> labcode
 }
 
 .grid-cols-1{
@@ -862,14 +917,24 @@ video {
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .gap-4{
   gap: 1rem;
+=======
+.gap-3{
+  gap: 0.75rem;
+}
+
+.gap-5{
+  gap: 1.25rem;
+>>>>>>> labcode
 }
 
 .gap-6{
   gap: 1.5rem;
 }
 
+<<<<<<< HEAD
 .gap-8{
   gap: 2rem;
 }
@@ -878,6 +943,10 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+=======
+.gap-4{
+  gap: 1rem;
+>>>>>>> labcode
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]){
@@ -886,6 +955,7 @@ video {
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+<<<<<<< HEAD
 .space-y-24 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
   margin-top: calc(6rem * calc(1 - var(--tw-space-y-reverse)));
@@ -896,6 +966,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(3.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(3.5rem * var(--tw-space-y-reverse));
+=======
+.space-y-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+>>>>>>> labcode
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]){
@@ -904,6 +980,7 @@ video {
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
+<<<<<<< HEAD
 .overflow-hidden{
   overflow: hidden;
 }
@@ -912,6 +989,8 @@ video {
   text-overflow: ellipsis;
 }
 
+=======
+>>>>>>> labcode
 .rounded{
   border-radius: 0.25rem;
 }
@@ -924,15 +1003,29 @@ video {
   border-radius: 0.5rem;
 }
 
+<<<<<<< HEAD
 .rounded-t-lg{
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
+=======
+.rounded-2xl{
+  border-radius: 1rem;
+}
+
+.rounded-3xl{
+  border-radius: 1.5rem;
+}
+
+.rounded-md{
+  border-radius: 0.375rem;
+>>>>>>> labcode
 }
 
 .border{
   border-width: 1px;
 }
 
+<<<<<<< HEAD
 .border-\[\#004890\]{
   --tw-border-opacity: 1;
   border-color: rgb(0 72 144 / var(--tw-border-opacity, 1));
@@ -944,8 +1037,21 @@ video {
 }
 
 .bg-\[\#2CA7F9\]{
+=======
+.border-gray-300{
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+}
+
+.bg-\[\#EEEEEE\]{
+>>>>>>> labcode
   --tw-bg-opacity: 1;
-  background-color: rgb(44 167 249 / var(--tw-bg-opacity, 1));
+  background-color: rgb(238 238 238 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#F4F4F4\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 244 244 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[\#F4F4F4\]{
@@ -971,6 +1077,7 @@ video {
   background-color: rgb(255 255 255 / 0.3);
 }
 
+<<<<<<< HEAD
 .bg-\[\#004890\]{
   --tw-bg-opacity: 1;
   background-color: rgb(0 72 144 / var(--tw-bg-opacity, 1));
@@ -996,6 +1103,11 @@ video {
 .bg-\[\#838383\]{
   --tw-bg-opacity: 1;
   background-color: rgb(131 131 131 / var(--tw-bg-opacity, 1));
+=======
+.bg-blue-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
+>>>>>>> labcode
 }
 
 .bg-gradient-to-r{
@@ -1034,16 +1146,24 @@ video {
   padding: 0.5rem;
 }
 
+<<<<<<< HEAD
 .p-4{
   padding: 1rem;
 }
 
+=======
+>>>>>>> labcode
 .p-5{
   padding: 1.25rem;
 }
 
+<<<<<<< HEAD
 .p-6{
   padding: 1.5rem;
+=======
+.p-3{
+  padding: 0.75rem;
+>>>>>>> labcode
 }
 
 .p-8{
@@ -1065,6 +1185,7 @@ video {
   padding-right: 1.5rem;
 }
 
+<<<<<<< HEAD
 .py-12{
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -1078,6 +1199,11 @@ video {
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+=======
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+>>>>>>> labcode
 }
 
 .py-3{
@@ -1090,6 +1216,7 @@ video {
   padding-bottom: 1rem;
 }
 
+<<<<<<< HEAD
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1115,18 +1242,51 @@ video {
 
 .text-left{
   text-align: left;
+=======
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-16{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
+>>>>>>> labcode
 }
 
 .text-center{
   text-align: center;
 }
 
+<<<<<<< HEAD
 .text-right{
   text-align: right;
 }
 
 .text-end{
   text-align: end;
+=======
+.align-middle{
+  vertical-align: middle;
+}
+
+.font-sans{
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+>>>>>>> labcode
 }
 
 .text-2xl{
@@ -1134,18 +1294,32 @@ video {
   line-height: 2rem;
 }
 
+<<<<<<< HEAD
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
+=======
+>>>>>>> labcode
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
 
+<<<<<<< HEAD
 .text-\[20px\]{
   font-size: 20px;
+=======
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+>>>>>>> labcode
 }
 
 .text-lg{
@@ -1163,6 +1337,7 @@ video {
   line-height: 1rem;
 }
 
+<<<<<<< HEAD
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1177,10 +1352,13 @@ video {
   font-weight: 700;
 }
 
+=======
+>>>>>>> labcode
 .font-semibold{
   font-weight: 600;
 }
 
+<<<<<<< HEAD
 .font-extrabold{
   font-weight: 800;
 }
@@ -1200,6 +1378,14 @@ video {
 .text-\[\#004890\]{
   --tw-text-opacity: 1;
   color: rgb(0 72 144 / var(--tw-text-opacity, 1));
+=======
+.font-medium{
+  font-weight: 500;
+}
+
+.leading-\[62px\]{
+  line-height: 62px;
+>>>>>>> labcode
 }
 
 .text-\[\#2CA7F9\]{
@@ -1217,11 +1403,14 @@ video {
   color: rgb(131 131 131 / var(--tw-text-opacity, 1));
 }
 
+<<<<<<< HEAD
 .text-gray-600{
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity, 1));
 }
 
+=======
+>>>>>>> labcode
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -1341,6 +1530,7 @@ body{
   background-color: rgb(0 72 144 / var(--tw-bg-opacity, 1));
 }
 
+<<<<<<< HEAD
 .hover\:bg-\[\#0D61E3\]:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(13 97 227 / var(--tw-bg-opacity, 1));
@@ -1358,6 +1548,11 @@ body{
 
 .hover\:bg-\[\#\#2CA7F9\]:hover{
   background-color: ##2CA7F9;
+=======
+.hover\:bg-blue-600:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity, 1));
+>>>>>>> labcode
 }
 
 .hover\:from-\[\#0D61E3\]:hover{
@@ -1375,6 +1570,7 @@ body{
   color: rgb(0 72 144 / var(--tw-text-opacity, 1));
 }
 
+<<<<<<< HEAD
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -1396,6 +1592,8 @@ body{
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+=======
+>>>>>>> labcode
 .focus\:outline-none:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1407,6 +1605,7 @@ body{
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
+<<<<<<< HEAD
 .focus\:ring-\[\#004890\]:focus{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(0 72 144 / var(--tw-ring-opacity, 1));
@@ -1415,6 +1614,11 @@ body{
 .focus\:ring-\[\#2CA7F9\]:focus{
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(44 167 249 / var(--tw-ring-opacity, 1));
+=======
+.focus\:ring-blue-400:focus{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(96 165 250 / var(--tw-ring-opacity, 1));
+>>>>>>> labcode
 }
 
 @media (min-width: 640px){
@@ -1547,6 +1751,7 @@ body{
     flex-direction: row;
   }
 
+<<<<<<< HEAD
   .md\:items-center{
     align-items: center;
   }
@@ -1564,6 +1769,18 @@ body{
   .md\:px-12{
     padding-left: 3rem;
     padding-right: 3rem;
+=======
+  .md\:space-x-4 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:space-y-0 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+>>>>>>> labcode
   }
 
   .md\:text-2xl{
