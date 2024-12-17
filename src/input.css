@@ -4,20 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-    font-family: 'boldfont';
-    src: url('../fonts/FontsFree-Net-All-Round-Gothic-W01-Bold.ttf');
+    font-family: boldfont;
+    src: url(../fonts/FontsFree-Net-All-Round-Gothic-W01-Bold.ttf);
    
 }
+
 @font-face {
-    font-family: 'bookfont';
-    src: url('../fonts/FontsFree-Net-All-Round-Gothic-W01-Book.ttf') ;
+    font-family: bookfont;
+    src: url(../fonts/FontsFree-Net-All-Round-Gothic-W01-Book.ttf) ;
   
 }
-.boldfont{
-    font-family: boldfont;
+span{
+    font-family: boldfont!important;
+    font-weight: 900;
 }
-.bookfont{
-font-family: bookfont;
+.h1{
+font-family: bookfont !important;
 }
 body{
     font-family: 'Poppins', sans-serif;

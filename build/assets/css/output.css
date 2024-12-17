@@ -742,10 +742,6 @@ video {
   line-height: 1.75rem;
 }
 
-.font-bold{
-  font-weight: 700;
-}
-
 .text-\[\#2CA7F9\]{
   --tw-text-opacity: 1;
   color: rgb(44 167 249 / var(--tw-text-opacity, 1));
@@ -787,23 +783,24 @@ video {
 }
 
 @font-face {
-  font-family: 'boldfont';
+  font-family: boldfont;
 
-  src: url('../fonts/FontsFree-Net-All-Round-Gothic-W01-Bold.ttf');
+  src: url(../fonts/FontsFree-Net-All-Round-Gothic-W01-Bold.ttf);
 }
 
 @font-face {
-  font-family: 'bookfont';
-
-  src: url('../fonts/FontsFree-Net-All-Round-Gothic-W01-Book.ttf') ;
-}
-
-.boldfont{
-  font-family: boldfont;
-}
-
-.bookfont{
   font-family: bookfont;
+
+  src: url(../fonts/FontsFree-Net-All-Round-Gothic-W01-Book.ttf) ;
+}
+
+span{
+  font-family: boldfont!important;
+  font-weight: 900;
+}
+
+.h1{
+  font-family: bookfont !important;
 }
 
 body{
