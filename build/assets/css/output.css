@@ -606,12 +606,24 @@ video {
   bottom: 5rem;
 }
 
+.bottom-20{
+  bottom: 5rem;
+}
+
 .left-0{
   left: 0px;
 }
 
 .top-16{
   top: 4rem;
+}
+
+.bottom-0{
+  bottom: 0px;
+}
+
+.bottom-32{
+  bottom: 8rem;
 }
 
 .bottom-0{
@@ -630,6 +642,24 @@ video {
   z-index: 50;
 }
 
+.col-span-1{
+  grid-column: span 1 / span 1;
+}
+
+.col-span-3{
+  grid-column: span 3 / span 3;
+}
+
+.col-span-2{
+  grid-column: span 2 / span 2;
+}
+
+.col-span-4{
+  grid-column: span 4 / span 4;
+}
+
+.col-start-2{
+  grid-column-start: 2;
 .col-span-1{
   grid-column: span 1 / span 1;
 }
@@ -749,6 +779,10 @@ video {
   height: 700px;
 }
 
+.h-\[700px\]{
+  height: 700px;
+}
+
 .h-\[80\%\]{
   height: 80%;
 }
@@ -765,6 +799,8 @@ video {
   height: 100vh;
 }
 
+.h-\[800px\]{
+  height: 800px;
 .h-\[800px\]{
   height: 800px;
 }
@@ -831,6 +867,12 @@ video {
 
 .grid-cols-4{
   grid-template-columns: repeat(4, minmax(0, 1fr));
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-4{
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -859,6 +901,10 @@ video {
 
 .justify-between{
   justify-content: space-between;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .gap-10{
@@ -962,19 +1008,17 @@ video {
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
 }
 
-.border-\[\#2CA7F9\]{
-  --tw-border-opacity: 1;
-  border-color: rgb(44 167 249 / var(--tw-border-opacity, 1));
-}
-
-.border-blue-400{
-  --tw-border-opacity: 1;
-  border-color: rgb(96 165 250 / var(--tw-border-opacity, 1));
+.border-t-2{
+  border-top-width: 2px;
 }
 
 .bg-\[\#2CA7F9\]{
   --tw-bg-opacity: 1;
   background-color: rgb(44 167 249 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#3B3B3B4D\]\/30{
+  background-color: rgb(59 59 59 / 0.3);
 }
 
 .bg-\[\#3B3B3B4D\]\/30{
@@ -999,10 +1043,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-white\/30{
-  background-color: rgb(255 255 255 / 0.3);
 }
 
 .bg-gradient-to-r{
@@ -1087,6 +1127,11 @@ video {
   padding-right: 2rem;
 }
 
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -1115,6 +1160,11 @@ video {
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-36{
+  padding-top: 9rem;
+  padding-bottom: 9rem;
 }
 
 .py-36{
@@ -1172,6 +1222,10 @@ video {
   padding-top: 1rem;
 }
 
+.pt-4{
+  padding-top: 1rem;
+}
+
 .pt-6{
   padding-top: 1.5rem;
 }
@@ -1182,6 +1236,8 @@ video {
 
 .pt-80{
   padding-top: 20rem;
+.pt-80{
+  padding-top: 20rem;
 }
 
 .pt-96{
@@ -1190,8 +1246,16 @@ video {
 
 .pt-2{
   padding-top: 0.5rem;
+.pt-96{
+  padding-top: 24rem;
 }
 
+.pt-2{
+  padding-top: 0.5rem;
+}
+
+.pt-40{
+  padding-top: 10rem;
 .pt-40{
   padding-top: 10rem;
 }
@@ -1210,10 +1274,6 @@ video {
 
 .text-center{
   text-align: center;
-}
-
-.text-start{
-  text-align: start;
 }
 
 .font-sans{
@@ -1235,6 +1295,8 @@ video {
   line-height: 2.5rem;
 }
 
+.text-5xl{
+  font-size: 3rem;
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
@@ -1285,6 +1347,10 @@ video {
   font-weight: 400;
 }
 
+.font-normal{
+  font-weight: 400;
+}
+
 .font-semibold{
   font-weight: 600;
 }
@@ -1295,16 +1361,24 @@ video {
 
 .leading-6{
   line-height: 1.5rem;
+.leading-6{
+  line-height: 1.5rem;
 }
 
+.leading-7{
+  line-height: 1.75rem;
 .leading-7{
   line-height: 1.75rem;
 }
 
 .leading-8{
   line-height: 2rem;
+.leading-8{
+  line-height: 2rem;
 }
 
+.leading-9{
+  line-height: 2.25rem;
 .leading-9{
   line-height: 2.25rem;
 }
@@ -1593,14 +1667,12 @@ input[type=checkbox]:checked + label:before {
     margin-bottom: 0px;
   }
 
-  .md\:mb-12{
-    margin-bottom: 3rem;
-  }
-
   .md\:block{
     display: block;
   }
 
+  .md\:h-\[600px\]{
+    height: 600px;
   .md\:h-\[600px\]{
     height: 600px;
   }
@@ -1629,8 +1701,17 @@ input[type=checkbox]:checked + label:before {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .md\:flex-row{
     flex-direction: row;
+  }
+
+  .md\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .md\:px-0{
@@ -1662,6 +1743,11 @@ input[type=checkbox]:checked + label:before {
     line-height: 2rem;
   }
 
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .md\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1681,6 +1767,10 @@ input[type=checkbox]:checked + label:before {
     font-size: 56px;
   }
 
+  .md\:text-\[56px\]{
+    font-size: 56px;
+  }
+
   .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
@@ -1688,6 +1778,18 @@ input[type=checkbox]:checked + label:before {
 
   .md\:leading-\[60px\]{
     line-height: 60px;
+  }
+
+  .md\:leading-\[67px\]{
+    line-height: 67px;
+  }
+
+  .md\:leading-\[75px\]{
+    line-height: 75px;
+  }
+
+  .md\:leading-\[\]{
+    line-height: ;
   }
 
   .md\:leading-\[67px\]{
@@ -1732,6 +1834,10 @@ input[type=checkbox]:checked + label:before {
     height: 700px;
   }
 
+  .lg\:h-\[700px\]{
+    height: 700px;
+  }
+
   .lg\:w-1\/2{
     width: 50%;
   }
@@ -1748,6 +1854,8 @@ input[type=checkbox]:checked + label:before {
     width: 60%;
   }
 
+  .lg\:w-\[25\%\]{
+    width: 25%;
   .lg\:w-\[25\%\]{
     width: 25%;
   }
@@ -1785,7 +1893,10 @@ input[type=checkbox]:checked + label:before {
   }
 
   .lg\:space-x-16 > :not([hidden]) ~ :not([hidden]){
+  .lg\:space-x-16 > :not([hidden]) ~ :not([hidden]){
     --tw-space-x-reverse: 0;
+    margin-right: calc(4rem * var(--tw-space-x-reverse));
+    margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
     margin-right: calc(4rem * var(--tw-space-x-reverse));
     margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
   }
@@ -1860,6 +1971,22 @@ input[type=checkbox]:checked + label:before {
     padding-top: 1.5rem;
   }
 
+  .lg\:pt-16{
+    padding-top: 4rem;
+  }
+
+  .lg\:pt-20{
+    padding-top: 5rem;
+  }
+
+  .lg\:pt-10{
+    padding-top: 2.5rem;
+  }
+
+  .lg\:pt-6{
+    padding-top: 1.5rem;
+  }
+
   .lg\:text-left{
     text-align: left;
   }
@@ -1870,6 +1997,11 @@ input[type=checkbox]:checked + label:before {
 
   .lg\:text-end{
     text-align: end;
+  }
+
+  .lg\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .lg\:text-3xl{
@@ -1918,6 +2050,13 @@ input[type=checkbox]:checked + label:before {
 
   .lg\:leading-10{
     line-height: 2.5rem;
+  .lg\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .lg\:leading-10{
+    line-height: 2.5rem;
   }
 
   .lg\:leading-7{
@@ -1956,6 +2095,14 @@ input[type=checkbox]:checked + label:before {
     gap: 2.5rem;
   }
 
+  .xl\:h-\[1080px\]{
+    height: 1080px;
+  }
+
+  .xl\:gap-10{
+    gap: 2.5rem;
+  }
+
   .xl\:gap-28{
     gap: 7rem;
   }
@@ -1976,6 +2123,11 @@ input[type=checkbox]:checked + label:before {
     padding-right: 5rem;
   }
 
+  .xl\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
   .xl\:px-24{
     padding-left: 6rem;
     padding-right: 6rem;
@@ -1984,8 +2136,14 @@ input[type=checkbox]:checked + label:before {
   .xl\:px-36{
     padding-left: 9rem;
     padding-right: 9rem;
+  .xl\:px-36{
+    padding-left: 9rem;
+    padding-right: 9rem;
   }
 
+  .xl\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
   .xl\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
@@ -2012,12 +2170,30 @@ input[type=checkbox]:checked + label:before {
 
   .xl\:pt-24{
     padding-top: 6rem;
+  .xl\:py-44{
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+  }
+
+  .xl\:pt-20{
+    padding-top: 5rem;
+  }
+
+  .xl\:pt-24{
+    padding-top: 6rem;
   }
 
   .xl\:pt-40{
     padding-top: 10rem;
   }
 
+  .xl\:pt-96{
+    padding-top: 24rem;
+  }
+
+  .xl\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   .xl\:pt-96{
     padding-top: 24rem;
   }
@@ -2054,6 +2230,13 @@ input[type=checkbox]:checked + label:before {
 
   .xl\:text-\[22px\]{
     font-size: 22px;
+  .xl\:text-8xl{
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .xl\:text-\[22px\]{
+    font-size: 22px;
   }
 
   .xl\:text-\[86px\]{
@@ -2063,8 +2246,14 @@ input[type=checkbox]:checked + label:before {
   .xl\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
+  .xl\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
+  .xl\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   .xl\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -2078,8 +2267,16 @@ input[type=checkbox]:checked + label:before {
     line-height: 2.25rem;
   }
 
+  .xl\:leading-9{
+    line-height: 2.25rem;
+  }
+
   .xl\:leading-\[45px\]{
     line-height: 45px;
+  }
+
+  .xl\:leading-\[50px\]{
+    line-height: 50px;
   }
 
   .xl\:leading-\[50px\]{
@@ -2108,6 +2305,10 @@ input[type=checkbox]:checked + label:before {
     gap: 2.5rem;
   }
 
+  .\32xl\:gap-10{
+    gap: 2.5rem;
+  }
+
   .\32xl\:px-20{
     padding-left: 5rem;
     padding-right: 5rem;
@@ -2123,9 +2324,44 @@ input[type=checkbox]:checked + label:before {
     padding-right: 12rem;
   }
 
+  .\32xl\:px-48{
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
   .\32xl\:px-64{
     padding-left: 16rem;
     padding-right: 16rem;
+  }
+
+  .\32xl\:px-80{
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+
+  .\32xl\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .\32xl\:pt-\[\]{
+    padding-top: ;
+  }
+
+  .\32xl\:pt-\[250px\]{
+    padding-top: 250px;
+  }
+
+  .\32xl\:pt-\[350px\]{
+    padding-top: 350px;
+  }
+
+  .\32xl\:pt-\[390px\]{
+    padding-top: 390px;
+  }
+
+  .\32xl\:pt-\[450px\]{
+    padding-top: 450px;
   }
 
   .\32xl\:px-80{
@@ -2173,6 +2409,11 @@ input[type=checkbox]:checked + label:before {
     line-height: 1;
   }
 
+  .\32xl\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
   .\32xl\:text-7xl{
     font-size: 4.5rem;
     line-height: 1;
@@ -2186,6 +2427,12 @@ input[type=checkbox]:checked + label:before {
     font-size: 116px;
   }
 
+  .\32xl\:text-\[22px\]{
+    font-size: 22px;
+  }
+
+  .\32xl\:text-\[86px\]{
+    font-size: 86px;
   .\32xl\:text-\[22px\]{
     font-size: 22px;
   }
@@ -2210,10 +2457,16 @@ input[type=checkbox]:checked + label:before {
     line-height: 62px;
   }
 
+  .\32xl\:leading-\[62px\]{
+    line-height: 62px;
+  }
+
   .\32xl\:leading-\[66px\]{
     line-height: 66px;
   }
 
+  .\32xl\:leading-\[102px\]{
+    line-height: 102px;
   .\32xl\:leading-\[102px\]{
     line-height: 102px;
   }
