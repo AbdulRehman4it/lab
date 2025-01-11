@@ -10,10 +10,12 @@
 </head>
 <body class="bg-[#EEEEEE]">
 <!-- Responsive Navbar -->
-<nav class="flex items-center justify-between xl:px-24 lg:px-16 px-5 pt-10 bg-[#EEEEEE] w-full z-50">
+<nav class="flex items-center justify-between xl:px-20 lg:px-16 px-5 pt-10 bg-[#EEEEEE] w-full z-50">
     <!-- Logo on the left -->
     <div class="flex items-center">
+        <a href="index.html">
         <img src="./assets/img/logo.png" alt="Logo" class="h-10">
+    </a>
     </div>
 
     <!-- Toggle Button for Mobile and Medium Screens -->
@@ -31,40 +33,44 @@
     </div>
 
     <!-- Navigation Links -->
-    <ul id="nav-links" class="hidden lg:flex flex-col lg:flex-row space-y-4 lg:space-y-0 space-x-0 lg:space-x-8 absolute lg:relative top-16 lg:top-0 left-0 w-full lg:w-auto bg-[#F4F4F4] p-5 rounded-md lg:rounded-[40px] shadow-lg lg:shadow-none z-40">
-        <li><a href="./index.html" class="text-[#3B3B3B] hover:text-[#2CA7F9] transition duration-300">Home</a></li>
-        <li><a href="./about.html" class="text-[#3B3B3B] hover:text-[#2CA7F9] transition duration-300">About</a></li>
-        <li><a href="./solution.html" class="text-[#3B3B3B] hover:text-[#2CA7F9] transition duration-300">Services</a></li>
-        <li><a href="./contact.html" class="text-[#3B3B3B] hover:text-[#2CA7F9] transition duration-300">Contact</a></li>
+    <ul id="nav-links" class="hidden lg:flex flex-col lg:flex-row space-y-4 px-12 lg:space-y-0 space-x-0 lg:space-x-16 absolute lg:relative top-16 lg:top-0 left-0 w-full lg:w-auto bg-[#F4F4F4] p-5 rounded-md lg:rounded-[40px] shadow-lg lg:shadow-none z-40">
+        <li><a href="./index.html" class="text-[#3B3B3B] hover:text-[#2CA7F9] transition duration-300 ">Home</a></li>
+        <li><a href="./solution.html" class="text-[#3B3B3B] hover:text-[#2CA7F9] transition duration-300">Solutions</a></li>
+        <li><a href="./about.html" class="text-[#3B3B3B] hover:text-[#2CA7F9] transition duration-300">About Us</a></li>
+       
 
         <!-- Contact Us Button for Mobile and Medium Screens -->
         <li class="block lg:hidden">
+            <a href="contact.html">
             <button class="w-full bg-gradient-to-r from-[#2CA7F9] to-[#0D61E3] 
             hover:from-[#0D61E3] hover:to-[#2CA7F9] 
             transition duration-300 text-white py-3 px-6 rounded-full text-lg">
                 Contact us
             </button>
+        </a>
         </li>
     </ul>
 
     <!-- Button on the right for large screens -->
     <div class="hidden lg:block">
-        <button class="bg-gradient-to-r from-[#2CA7F9] to-[#0D61E3] 
-        hover:from-[#0D61E3] hover:to-[#2CA7F9] 
-        transition duration-300 text-white py-3 px-6 rounded-full text-lg">
-            Contact us
-        </button>
+        <a href="contact.html">
+            <button class="w-full bg-gradient-to-r from-[#2CA7F9] to-[#0D61E3] 
+            hover:from-[#0D61E3] hover:to-[#2CA7F9] 
+            transition duration-300 text-white py-3 px-6 rounded-full text-lg">
+                Contact us
+            </button>
+        </a>
     </div>
 </nav>
 
 
 <!-- Content of the page -->
 
-    <section class=" text-white h-[1080px] 2xl:px-20 xl:px-14 lg:px-10 px-5 bg-cover bg-center pt-20 bg-no-repeat" style="background-image: url('./assets/img/heroobg.png');">
+    <section class=" text-white 2xl:h-[1150px] xl:h-[900px] h-[800px] 2xl:px-20 xl:px-14 lg:px-10 px-5 bg-cover bg-center pt-20 bg-no-repeat" style="background-image: url('./assets/img/heroobg.png');">
         <!-- Container for all content -->
         
         <!-- Top Section -->
-        <div class="topdiv text-center mt-24">
+        <div class="text-center">
             <!-- Heading -->
             <h1 class="text-[#3B3B3B] font-light xl:text-7xl md:text-5xl text-3xl md:leading-[60px] leading-10 mb-6 xl:leading-[92px] " data-aos="fade-up">
                 Pioneering the Future with <br> <span class="font-bold">Intelligent Technology</span>
@@ -124,20 +130,20 @@
 
 <!-- slider -->
 
-<section class="w-full px-12 py-16 bg-[#F4F4F4]">
+<section class="w-full py-16 bg-[#F4F4F4]">
     <div class="">
         <!-- Top Section -->
-        <div class="flex justify-between items-center mb-6 px-36">
+        <div class="flex justify-between items-center mb-6 xl:px-36 lg:px-16 px-5">
             <!-- Heading -->
-            <h1 class="text-3xl md:text-4xl text-[#3B3B3B]" data-aos="fade-right">
+            <h1 class="text-xl md:text-4xl text-[#3B3B3B]" data-aos="fade-right">
                 Use cases
             </h1>
             <!-- Slider Control Buttons -->
             <div class="flex gap-4">
-                <button id="prevSlide" class="bg-[#838383] hover:bg-[#2CA7F9] text-white px-4 py-2 rounded transition duration-300">
+                <button id="prevSlide" class="bg-transparent hover:bg-[#838383] text-[#838383] hover:text-white px-6 py-5 border-2 border-[#838383] text-2xl rounded-full transition duration-300 text-center">
                     &#9664; <!-- Left Arrow -->
                 </button>
-                <button id="nextSlide" class="bg-[#838383] hover:bg-[#2CA7F9] text-white px-4 py-2 rounded transition duration-300">
+                <button id="nextSlide" class="bg-transparent hover:bg-[#838383] text-[#838383] hover:text-white px-6 py-5 border-2 border-[#838383] text-2xl rounded-full transition duration-300">
                     &#9654; <!-- Right Arrow -->
                 </button>
             </div>
@@ -146,40 +152,43 @@
         <!-- Slider Container -->
         <div class="relative overflow-hidden">
             <!-- Slides Wrapper -->
-            <div id="slider" class="flex transition-transform duration-500 ease-out">
+            <div id="slider" class="flex transition-transform duration-500 ease-out 2xl:gap-10 gap-4 mr-36 ml-5">
                 <!-- Slide 1 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] p-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <a href=".hhtps://www.cb2.ca/">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]   transition duration-300">
                         <img src="./assets/img/costmerimg.png" alt="Slide 1" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
-                        <h3 class="text-lg font-semibold text-[#3B3B3B] mt-4">Smart Shopping Assistant</h3>
+                        <h3 class="text-lg font-semibold text-[#3B3B3B] mt-4">Intelligent Customer Support</h3>
                     </div>
+                </a>
                 </div>
                 <!-- Slide 2 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] p-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]  transition duration-300">
                         <img src="./assets/img/seamlessimg.png" alt="Slide 2" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
-                        <h3 class="text-lg font-semibold text-[#3B3B3B] mt-4">Intelligent Customer Support</h3>
+                        <h3 class="text-lg font-semibold text-[#3B3B3B] mt-4">Seamless User Navigation Experience</h3>
                     </div>
                 </div>
                 <!-- Slide 3 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] p-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]  transition duration-300">
                         <img src="./assets/img/smartaiimg.png" alt="Slide 3" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
-                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Supply Chain and Inventory Management</h3>
+                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Smart Shopping Assistant</h3>
                     </div>
                 </div>
                 <!-- Slide 4 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] p-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]  transition duration-300">
                         <img src="./assets/img/u1.png" alt="Slide 4" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
-                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Market Analysis and Forecasting</h3>
+                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Smart Shopping
+                            Assistant</h3>
                     </div>
                 </div>
                 <!-- Slide 5 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] px-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]  transition duration-300">
                         <img src="./assets/img/u5.png" alt="Slide 5" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
-                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Immersive Shopping Experience</h3>
+                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Seamless User Navigation Experience</h3>
                     </div>
                 </div>
             </div>
@@ -205,20 +214,20 @@
 
 <!-- slider -->
 
-<section class="w-full px-12 py-16 bg-[#F4F4F4]">
+<section class="w-full  py-16 bg-[#F4F4F4]">
     <div class="">
         <!-- Top Section -->
-        <div class="flex justify-between items-center mb-6 px-36">
+        <div class="flex justify-between items-center mb-6 xl:px-36 lg:px-16 px-5">
             <!-- Heading -->
-            <h1 class="text-3xl md:text-4xl text-[#3B3B3B]" data-aos="fade-right">
+            <h1 class="text-xl md:text-4xl text-[#3B3B3B]" data-aos="fade-right">
                 Use cases
             </h1>
             <!-- Slider Control Buttons -->
             <div class="flex gap-4">
-                <button id="prevSlide" class="bg-[#838383] hover:bg-[#2CA7F9] text-white px-4 py-2 rounded transition duration-300">
+                <button id="prevSlide" class="bg-transparent hover:bg-[#838383] text-[#838383] hover:text-white px-6 py-5 border-2 border-[#838383] text-2xl rounded-full transition duration-300 text-center">
                     &#9664; <!-- Left Arrow -->
                 </button>
-                <button id="nextSlide" class="bg-[#838383] hover:bg-[#2CA7F9] text-white px-4 py-2 rounded transition duration-300">
+                <button id="nextSlide" class="bg-transparent hover:bg-[#838383] text-[#838383] hover:text-white px-6 py-5 border-2 border-[#838383] text-2xl rounded-full transition duration-300 text-center">
                     &#9654; <!-- Right Arrow -->
                 </button>
             </div>
@@ -227,40 +236,40 @@
         <!-- Slider Container -->
         <div class="relative overflow-hidden">
             <!-- Slides Wrapper -->
-            <div id="slider" class="flex transition-transform duration-500 ease-out">
+            <div id="slider" class="flex transition-transform duration-500 ease-out xl:gap-10 gap-4 mr-36 ml-5">
                 <!-- Slide 1 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] p-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]  transition duration-300">
                         <img src="./assets/img/u2.png" alt="Slide 1" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
-                        <h3 class="text-lg font-semibold text-[#3B3B3B] mt-4">Smart Shopping Assistant</h3>
+                        <h3 class="text-lg font-semibold text-[#3B3B3B] mt-4">Comprehensive Data Dashboards</h3>
                     </div>
                 </div>
                 <!-- Slide 2 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] p-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]  transition duration-300">
                         <img src="./assets/img/supplyim.png" alt="Slide 2" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
-                        <h3 class="text-lg font-semibold text-[#3B3B3B] mt-4">Intelligent Customer Support</h3>
+                        <h3 class="text-lg font-semibold text-[#3B3B3B] mt-4">Supply Chain and Inventory Management</h3>
                     </div>
                 </div>
                 <!-- Slide 3 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] p-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]  transition duration-300">
                         <img src="./assets/img/analyasis.png" alt="Slide 3" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
-                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Supply Chain and Inventory Management</h3>
-                    </div>
-                </div>
-                <!-- Slide 4 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] p-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
-                        <img src="./assets/img/data.png" alt="Slide 4" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
                         <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Market Analysis and Forecasting</h3>
                     </div>
                 </div>
+                <!-- Slide 4 -->
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]  transition duration-300">
+                        <img src="./assets/img/data.png" alt="Slide 4" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
+                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Real-Time Data Visualization</h3>
+                    </div>
+                </div>
                 <!-- Slide 5 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] px-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]  transition duration-300">
                         <img src="./assets/img/predict.png" alt="Slide 5" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
-                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Immersive Shopping Experience</h3>
+                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Predictive Market Trends</h3>
                     </div>
                 </div>
             </div>
@@ -270,7 +279,7 @@
 
 <section class="2xl:px-20 xl:px-14 lg:px-10 px-5 xl:pt-40 py-20">
     <div>
-        <h1 class="text-[#3B3B3B] 2xl:text-[106px] xl:text-7xl lg:text-5xl md:text-4xl text-2xl font-light text-center lg;text-start">MR/AR Custom Development</h1>
+        <h1 class="text-[#3B3B3B] 2xl:text-[106px] xl:text-7xl lg:text-5xl md:text-4xl text-2xl font-light text-center lg:text-start">MR/AR Custom Development</h1>
         <div class="w-full flex md:flex-row flex-col justify-between py-10 gap-4">
             <div class="md:w-1/4">
             <img src="./assets/img/aiimg.png" class="h-full" alt="">
@@ -285,20 +294,20 @@
 
 <!-- slider -->
 
-<section class="w-full px-12 py-16 bg-[#F4F4F4]">
+<section class="w-full  py-16 bg-[#F4F4F4]">
     <div class="">
         <!-- Top Section -->
-        <div class="flex justify-between items-center mb-6 px-36">
+        <div class="flex justify-between items-center mb-6 xl:px-36 lg:px-16 px-5">
             <!-- Heading -->
-            <h1 class="text-3xl md:text-4xl text-[#3B3B3B]" data-aos="fade-right">
+            <h1 class="text-xl md:text-4xl text-[#3B3B3B]" data-aos="fade-right">
                 Use cases
             </h1>
             <!-- Slider Control Buttons -->
             <div class="flex gap-4">
-                <button id="prevSlide" class="bg-[#838383] hover:bg-[#2CA7F9] text-white px-4 py-2 rounded transition duration-300">
+                <button id="prevSlide" class="bg-transparent hover:bg-[#838383] text-[#838383] hover:text-white px-6 py-5 border-2 border-[#838383] text-2xl rounded-full transition duration-300 text-center">
                     &#9664; <!-- Left Arrow -->
                 </button>
-                <button id="nextSlide" class="bg-[#838383] hover:bg-[#2CA7F9] text-white px-4 py-2 rounded transition duration-300">
+                <button id="nextSlide" class="bg-transparent hover:bg-[#838383] text-[#838383] hover:text-white px-6 py-5 border-2 border-[#838383] text-2xl rounded-full transition duration-300 text-center">
                     &#9654; <!-- Right Arrow -->
                 </button>
             </div>
@@ -307,40 +316,40 @@
         <!-- Slider Container -->
         <div class="relative overflow-hidden">
             <!-- Slides Wrapper -->
-            <div id="slider" class="flex transition-transform duration-500 ease-out">
+            <div id="slider" class="flex transition-transform duration-500 ease-out 2xl:gap-10 gap-4 mr-36 ml-5">
                 <!-- Slide 1 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] p-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
-                        <img src="./assets/img/costmerimg.png" alt="Slide 1" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
-                        <h3 class="text-lg font-semibold text-[#3B3B3B] mt-4">Smart Shopping Assistant</h3>
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]  transition duration-300">
+                        <img src="./assets/img/ui10.png" alt="Slide 1" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
+                        <h3 class="text-lg font-semibold text-[#3B3B3B] mt-4">Immersive Shopping Experience</h3>
                     </div>
                 </div>
                 <!-- Slide 2 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] p-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
-                        <img src="./assets/img/seamlessimg.png" alt="Slide 2" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
-                        <h3 class="text-lg font-semibold text-[#3B3B3B] mt-4">Intelligent Customer Support</h3>
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]  transition duration-300">
+                        <img src="./assets/img/ui11.png" alt="Slide 2" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
+                        <h3 class="text-lg font-semibold text-[#3B3B3B] mt-4">Interactive Learning & Practical Skill Training</h3>
                     </div>
                 </div>
                 <!-- Slide 3 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] p-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
-                        <img src="./assets/img/smartaiimg.png" alt="Slide 3" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
-                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Supply Chain and Inventory Management</h3>
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]  transition duration-300">
+                        <img src="./assets/img/ui13.png" alt="Slide 3" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
+                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Augmented Collaboration Spaces</h3>
                     </div>
                 </div>
                 <!-- Slide 4 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] p-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
-                        <img src="./assets/img/u1.png" alt="Slide 4" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
-                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Market Analysis and Forecasting</h3>
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]  transition duration-300">
+                        <img src="./assets/img/ui12.png" alt="Slide 4" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
+                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Real-World Simulation Scenarios</h3>
                     </div>
                 </div>
                 <!-- Slide 5 -->
-                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%] px-4">
-                    <div class="bg-[#EEEEEE] rounded-[40px] shadow-lg p-4 text-center flex flex-col justify-between h-[500px] hover:shadow-2xl transition duration-300">
+                <div class="min-w-[100%] sm:min-w-[50%] lg:min-w-[25%]">
+                    <div class="bg-[#EEEEEE] rounded-[40px] p-4 text-center flex flex-col justify-between h-[500px]  transition duration-300">
                         <img src="./assets/img/u5.png" alt="Slide 5" class="w-full h-[80%] object-cover rounded-[40px] mb-4">
-                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Immersive Shopping Experience</h3>
+                        <h3 class="text-lg font-semibold text-[#3B3B3B]  mt-4">Comprehensive Data Dashboards</h3>
                     </div>
                 </div>
             </div>
