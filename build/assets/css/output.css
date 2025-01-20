@@ -602,6 +602,10 @@ video {
   position: relative;
 }
 
+.sticky{
+  position: sticky;
+}
+
 .left-0{
   left: 0px;
 }
@@ -1550,10 +1554,6 @@ input[type=checkbox]:checked + label:before {
     padding-bottom: 1rem;
   }
 
-  .md\:pt-20{
-    padding-top: 5rem;
-  }
-
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2009,6 +2009,11 @@ input[type=checkbox]:checked + label:before {
     padding-right: 20rem;
   }
 
+  .\32xl\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .\32xl\:py-44{
     padding-top: 11rem;
     padding-bottom: 11rem;
@@ -2017,11 +2022,6 @@ input[type=checkbox]:checked + label:before {
   .\32xl\:py-64{
     padding-top: 16rem;
     padding-bottom: 16rem;
-  }
-
-  .\32xl\:py-0{
-    padding-top: 0px;
-    padding-bottom: 0px;
   }
 
   .\32xl\:pb-44{
