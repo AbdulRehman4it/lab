@@ -602,6 +602,14 @@ video {
   position: relative;
 }
 
+.sticky{
+  position: sticky;
+}
+
+.inset-0{
+  inset: 0px;
+}
+
 .left-0{
   left: 0px;
 }
@@ -616,6 +624,18 @@ video {
 
 .z-50{
   z-index: 50;
+}
+
+.z-0{
+  z-index: 0;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.-z-0{
+  z-index: 0;
 }
 
 .-mx-2{
@@ -666,6 +686,10 @@ video {
 
 .mt-6{
   margin-top: 1.5rem;
+}
+
+.mb-20{
+  margin-bottom: 5rem;
 }
 
 .block{
@@ -1550,10 +1574,6 @@ input[type=checkbox]:checked + label:before {
     padding-bottom: 1rem;
   }
 
-  .md\:pt-20{
-    padding-top: 5rem;
-  }
-
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2009,6 +2029,11 @@ input[type=checkbox]:checked + label:before {
     padding-right: 20rem;
   }
 
+  .\32xl\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .\32xl\:py-44{
     padding-top: 11rem;
     padding-bottom: 11rem;
@@ -2017,11 +2042,6 @@ input[type=checkbox]:checked + label:before {
   .\32xl\:py-64{
     padding-top: 16rem;
     padding-bottom: 16rem;
-  }
-
-  .\32xl\:py-0{
-    padding-top: 0px;
-    padding-bottom: 0px;
   }
 
   .\32xl\:pb-44{
