@@ -1137,6 +1137,14 @@ video {
   padding-top: 2rem;
 }
 
+.pt-36{
+  padding-top: 9rem;
+}
+
+.pt-40{
+  padding-top: 10rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -2461,6 +2469,22 @@ section .wave.wave4{
     padding-top: 4rem;
   }
 
+  .lg\:pt-48{
+    padding-top: 12rem;
+  }
+
+  .lg\:pt-6{
+    padding-top: 1.5rem;
+  }
+
+  .lg\:pt-64{
+    padding-top: 16rem;
+  }
+
+  .lg\:pt-72{
+    padding-top: 18rem;
+  }
+
   .lg\:text-left{
     text-align: left;
   }
@@ -2626,6 +2650,22 @@ section .wave.wave4{
     padding-top: 16rem;
   }
 
+  .xl\:pt-4{
+    padding-top: 1rem;
+  }
+
+  .xl\:pt-7{
+    padding-top: 1.75rem;
+  }
+
+  .xl\:pt-72{
+    padding-top: 18rem;
+  }
+
+  .xl\:pt-60{
+    padding-top: 15rem;
+  }
+
   .xl\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -2775,6 +2815,22 @@ section .wave.wave4{
 
   .\32xl\:pt-\[450px\]{
     padding-top: 450px;
+  }
+
+  .\32xl\:pt-\[400px\]{
+    padding-top: 400px;
+  }
+
+  .\32xl\:pt-\[300px\]{
+    padding-top: 300px;
+  }
+
+  .\32xl\:pt-\[2500px\]{
+    padding-top: 2500px;
+  }
+
+  .\32xl\:pt-\[250px\]{
+    padding-top: 250px;
   }
 
   .\32xl\:text-2xl{
