@@ -1129,20 +1129,16 @@ video {
   padding-top: 1rem;
 }
 
+.pt-44{
+  padding-top: 11rem;
+}
+
 .pt-6{
   padding-top: 1.5rem;
 }
 
 .pt-8{
   padding-top: 2rem;
-}
-
-.pt-36{
-  padding-top: 9rem;
-}
-
-.pt-40{
-  padding-top: 10rem;
 }
 
 .text-left{
@@ -2263,6 +2259,10 @@ section .wave.wave4{
     flex-direction: row;
   }
 
+  .md\:p-4{
+    padding: 1rem;
+  }
+
   .md\:px-0{
     padding-left: 0px;
     padding-right: 0px;
@@ -2278,13 +2278,12 @@ section .wave.wave4{
     padding-right: 1.25rem;
   }
 
-  .md\:py-20{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
   .md\:pb-4{
     padding-bottom: 1rem;
+  }
+
+  .md\:pt-48{
+    padding-top: 12rem;
   }
 
   .md\:text-2xl{
@@ -2314,6 +2313,11 @@ section .wave.wave4{
   .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .md\:leading-\[60px\]{
@@ -2422,6 +2426,10 @@ section .wave.wave4{
     border-radius: 40px;
   }
 
+  .lg\:p-8{
+    padding: 2rem;
+  }
+
   .lg\:px-0{
     padding-left: 0px;
     padding-right: 0px;
@@ -2469,18 +2477,6 @@ section .wave.wave4{
     padding-top: 4rem;
   }
 
-  .lg\:pt-48{
-    padding-top: 12rem;
-  }
-
-  .lg\:pt-6{
-    padding-top: 1.5rem;
-  }
-
-  .lg\:pt-64{
-    padding-top: 16rem;
-  }
-
   .lg\:pt-72{
     padding-top: 18rem;
   }
@@ -2495,6 +2491,11 @@ section .wave.wave4{
 
   .lg\:text-end{
     text-align: end;
+  }
+
+  .lg\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .lg\:text-3xl{
@@ -2626,6 +2627,10 @@ section .wave.wave4{
     padding-bottom: 2rem;
   }
 
+  .xl\:pb-0{
+    padding-bottom: 0px;
+  }
+
   .xl\:pb-16{
     padding-bottom: 4rem;
   }
@@ -2648,22 +2653,6 @@ section .wave.wave4{
 
   .xl\:pt-64{
     padding-top: 16rem;
-  }
-
-  .xl\:pt-4{
-    padding-top: 1rem;
-  }
-
-  .xl\:pt-7{
-    padding-top: 1.75rem;
-  }
-
-  .xl\:pt-72{
-    padding-top: 18rem;
-  }
-
-  .xl\:pt-60{
-    padding-top: 15rem;
   }
 
   .xl\:text-3xl{
@@ -2702,6 +2691,11 @@ section .wave.wave4{
 
   .xl\:text-\[86px\]{
     font-size: 86px;
+  }
+
+  .xl\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .xl\:text-lg{
@@ -2790,11 +2784,6 @@ section .wave.wave4{
     padding-right: 20rem;
   }
 
-  .\32xl\:py-0{
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
   .\32xl\:py-44{
     padding-top: 11rem;
     padding-bottom: 11rem;
@@ -2809,28 +2798,16 @@ section .wave.wave4{
     padding-bottom: 11rem;
   }
 
-  .\32xl\:pt-36{
-    padding-top: 9rem;
-  }
-
-  .\32xl\:pt-\[450px\]{
-    padding-top: 450px;
-  }
-
-  .\32xl\:pt-\[400px\]{
-    padding-top: 400px;
+  .\32xl\:pt-0{
+    padding-top: 0px;
   }
 
   .\32xl\:pt-\[300px\]{
     padding-top: 300px;
   }
 
-  .\32xl\:pt-\[2500px\]{
-    padding-top: 2500px;
-  }
-
-  .\32xl\:pt-\[250px\]{
-    padding-top: 250px;
+  .\32xl\:pt-\[450px\]{
+    padding-top: 450px;
   }
 
   .\32xl\:text-2xl{
