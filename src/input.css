@@ -4,6 +4,34 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@keyframes waveMotion {
+  0% { transform: translateX(-50%) translateY(5px); }
+  50% { transform: translateX(-50%) translateY(-5px); }
+  100% { transform: translateX(-50%) translateY(5px); }
+}
+
+.floating-wave {
+  position: relative;
+  overflow: hidden;
+}
+
+.floating-wave::before {
+  content: "";
+  position: absolute;
+  top: -25px; /* Controls how much wave is visible */
+  left: 50%;
+  width: 200%;
+  height: 60px;
+  background: url('./assets/img/wave.png'); /* Replace with your wave image */
+  background-size: cover;
+  animation: waveMotion 4s infinite ease-in-out;
+}
+
+
+
+
+
 html {
   scroll-behavior: smooth;
 }

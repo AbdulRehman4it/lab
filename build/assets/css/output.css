@@ -594,10 +594,6 @@ video {
   visibility: visible;
 }
 
-.fixed{
-  position: fixed;
-}
-
 .absolute{
   position: absolute;
 }
@@ -618,20 +614,12 @@ video {
   top: 4rem;
 }
 
-.top-0{
-  top: 0px;
-}
-
 .z-40{
   z-index: 40;
 }
 
 .z-50{
   z-index: 50;
-}
-
-.-z-10{
-  z-index: -10;
 }
 
 .-mx-2{
@@ -933,6 +921,11 @@ video {
   border-color: rgb(131 131 131 / var(--tw-border-opacity, 1));
 }
 
+.border-\[\#EEEEEE\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(238 238 238 / var(--tw-border-opacity, 1));
+}
+
 .border-\[\#FFFFFF\]\/50{
   border-color: rgb(255 255 255 / 0.5);
 }
@@ -940,16 +933,6 @@ video {
 .border-gray-300{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
-}
-
-.border-white{
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
-}
-
-.border-\[\#EEEEEE\]{
-  --tw-border-opacity: 1;
-  border-color: rgb(238 238 238 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#2CA7F9\]{
@@ -1332,6 +1315,39 @@ video {
 
 .ease-out{
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+@keyframes waveMotion {
+  0% {
+    transform: translateX(-50%) translateY(5px);
+  }
+
+  50% {
+    transform: translateX(-50%) translateY(-5px);
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(5px);
+  }
+}
+
+.floating-wave {
+  position: relative;
+  overflow: hidden;
+}
+
+.floating-wave::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  /* Controls how much wave is visible */
+  left: 50%;
+  width: 200%;
+  height: 60px;
+  background: url('./assets/img/wave.png');
+  /* Replace with your wave image */
+  background-size: cover;
+  animation: waveMotion 4s infinite ease-in-out;
 }
 
 html {
