@@ -594,10 +594,6 @@ video {
   visibility: visible;
 }
 
-.fixed{
-  position: fixed;
-}
-
 .absolute{
   position: absolute;
 }
@@ -618,20 +614,12 @@ video {
   top: 4rem;
 }
 
-.top-0{
-  top: 0px;
-}
-
 .z-40{
   z-index: 40;
 }
 
 .z-50{
   z-index: 50;
-}
-
-.-z-10{
-  z-index: -10;
 }
 
 .-mx-2{
@@ -933,6 +921,11 @@ video {
   border-color: rgb(131 131 131 / var(--tw-border-opacity, 1));
 }
 
+.border-\[\#EEEEEE\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(238 238 238 / var(--tw-border-opacity, 1));
+}
+
 .border-\[\#FFFFFF\]\/50{
   border-color: rgb(255 255 255 / 0.5);
 }
@@ -940,16 +933,6 @@ video {
 .border-gray-300{
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
-}
-
-.border-white{
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
-}
-
-.border-\[\#EEEEEE\]{
-  --tw-border-opacity: 1;
-  border-color: rgb(238 238 238 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#2CA7F9\]{
@@ -2042,6 +2025,60 @@ section .wave.wave4{
   }
 }
 
+/* From Uiverse.io by JaydipPrajapati1910 */
+
+.button {
+  width: 190px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 15px;
+  background-color: #2CA7F9;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  position: relative;
+  cursor: pointer;
+  font-weight: 900;
+  transition-duration: .2s;
+  background: transparent;
+}
+
+.button:before, .button:after {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #0D61E3, #0000ff, #2CA7F9,#2CA7F9, #0D61E3, #2CA7F9, 
+		#0000ff, #0D61E3,#2CA7F9, #0D61E3);
+  background-size: 300%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/* .button:after {
+  filter: blur(50px);
+} */
+
 .hover\:border-\[\#2CA6F9\]:hover{
   --tw-border-opacity: 1;
   border-color: rgb(44 166 249 / var(--tw-border-opacity, 1));
@@ -2767,3 +2804,5 @@ section .wave.wave4{
     line-height: 66px;
   }
 }
+
+

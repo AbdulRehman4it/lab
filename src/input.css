@@ -610,7 +610,7 @@ input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow sp
   }
 }
 
-<<<<<<< HEAD
+
 section .wave{
   position: absolute;
   bottom: 0;
@@ -670,7 +670,7 @@ section .wave.wave4{
       background-position-x: -1000px;
   }
 }
-=======
+
 
 
 
@@ -740,4 +740,4 @@ section .wave.wave4{
   filter: blur(50px);
 } */
 
->>>>>>> 65410717ca01163fb0cfead120a4915cb6e57179
+
