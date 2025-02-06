@@ -614,6 +614,10 @@ video {
   top: 4rem;
 }
 
+.top-0{
+  top: 0px;
+}
+
 .z-40{
   z-index: 40;
 }
@@ -2792,6 +2796,16 @@ section .wave.wave4{
   .\32xl\:py-64{
     padding-top: 16rem;
     padding-bottom: 16rem;
+  }
+
+  .\32xl\:py-6{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .\32xl\:py-8{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .\32xl\:pb-44{
